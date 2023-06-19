@@ -1,0 +1,43 @@
+
+.footer {
+    background-color:skyblue;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-text {
+    font-size: 50px;
+    margin-right: 500px;
+    
+  }
+
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    background-color: white;
+  }
+
+  .social-icon:last-child {
+    margin-right: 0;
+    color:skyblue;
+  }
+
+  .social-icon:nth-child(2) {
+    color:skyblue;
+  }
+  .social-icon:nth-child(1) {
+    color: red; /* Add this line to change the color of the first social icon (YouTube) */
+  }
+  

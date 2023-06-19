@@ -1,0 +1,65 @@
+.store {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .store__generics {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 0px;
+    
+  }
+  
+  .store__music {
+    font-size: 30px;
+    margin-top: -80px;
+    font-style: italic;
+  }
+  
+  .store__product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .store__row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .store__product {
+    flex-basis: 45%;
+    text-align: center;
+    margin-right: 20px;
+    
+  }
+  
+  .store__product:last-child {
+    margin-right: 0;
+  }
+  
+  .store__product img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .store__product h3 {
+    margin-top: 10px;
+  }
+  
+  .store__product p {
+    margin-top: 5px;
+  }
+  .store__product button{
+    background-color: skyblue;
+  }

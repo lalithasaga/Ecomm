@@ -1,0 +1,39 @@
+/* Header.css */
+.header {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__link {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header__cart-button {
+    color: #fff;
+    background-color: #5da0e4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .header__login-button {
+    color: #fff;
+    background-color: #5da0e4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+  }
